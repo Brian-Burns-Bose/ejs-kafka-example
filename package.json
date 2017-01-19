@@ -1,0 +1,12 @@
+{
+  "name": "ejs-kafka-example",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "eclairjs": "0.10",
+    "eclairjs-kafka": "git+https://github.com/eclairjs/eclairjs-kafka"
+  },
+  "scripts": {
+    "start": "node --harmony kafka.js"
+  }
+}
